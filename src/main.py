@@ -8,10 +8,10 @@ from vectorizing import getRecommendedProducts
 
 load_dotenv()
 
-client = openai.OpenAI(
-    api_key="2cc3e97b-fafb-4f04-981a-297306757a62",
-    base_url="https://api.sambanova.ai/v1",
-)
+# client = openai.OpenAI(
+#     api_key=os.environ.get("SAMBANOVA_API_KEY"),
+#     base_url="https://api.sambanova.ai/v1",
+# )
 
 app = FastAPI()
 
