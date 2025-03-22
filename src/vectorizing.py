@@ -42,7 +42,8 @@ def calculateSimilarity(productOfferingVector):
             "Similarity" : str(s)
             }
         )
-    return similarity
+    top_3_similar = sorted(similarity, key=lambda x: float(x["Similarity"]), reverse=True)[:3]    
+    return top_3_similar
 
 
 def getRecommendedProducts(paragraph):

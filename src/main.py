@@ -48,6 +48,8 @@ Analyze the following customer data and provide descriptive summary of customer 
 
 user_prompt= f"""Customer Information: {combined_profile}"""
 
+# para = "Based on Alison's financial needs and preferences, there are opportunities for the bank to offer targeted product offerings such as premium credit cards, travel insurance, and investment services. Her frequent use of credit cards for travel-related expenses and preference for digital wallets suggest a need for convenient and rewarding financial products. Additionally, her social media posts indicate a strong interest in travel hacks, financial freedom, and being prepared, which could be leveraged to promote relevant banking products. The bank may also consider offering budgeting tools or financial advisory services to help her manage her finances effectively, given the significant difference between her total deposits and withdrawals, and her high average monthly spending of $4,950.69."
+# print(getRecommendedProducts(para))
 
 # @app.get("/")
 # async def root():
