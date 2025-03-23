@@ -17,7 +17,7 @@ def vectoriseProductOfferings(product_offerings):
 
 def createProductsVector():
     if(len(product_vector)==0):
-        with open("../data/products.json", "r") as file:
+        with open("./data/products.json", "r") as file:
             products = json.load(file) 
         for p in products:
             text = p["description"] + " #### " + p["features"]
