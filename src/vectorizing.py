@@ -41,7 +41,7 @@ def calculateSimilarity(productOfferingVector):
             "Product_Category" : p["Product_Category"],
             "Similarity" : str(s)
             }
-        )
+        )    
     top_3_similar = sorted(similarity, key=lambda x: float(x["Similarity"]), reverse=True)[:3]    
     return top_3_similar
 
