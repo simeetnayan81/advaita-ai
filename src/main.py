@@ -36,7 +36,11 @@ async def get_allCustomerData():
 async def get_customer_transaction_insights(customer_id: str):
     
     predictions = predict_transaction(customer_id)
-    return getCustomerTransactionsInsight(customer_id)
+    customer_transaction_insight = getCustomerTransactionsInsight(customer_id)
+    return {
+           "prediction" : predictions,
+           "transaction_insights":customer_transaction_insight
+    }
 
 
 @app.get("/customer_data/{customer_id}")
