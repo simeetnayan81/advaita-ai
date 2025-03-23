@@ -79,22 +79,27 @@ class ProductRecommender:
             key=lambda x: float(x["Similarity"]), 
             reverse=True
         )[:top_k]
-        #products_sentiment = self.product_sentiment(product_similarity)
+        products_sentiment = self.product_sentiment(product_similarity)
+        
+        return {"top_recommendations":top_recommendations,
+                "product_sentiment":products_sentiment
+                }
+                
+    def product_sentiment(self, product_similarity, top_k=5):
+        
         top_5_recommendations = sorted(
             product_similarity, 
             key=lambda x: float(x["Similarity"]), 
             reverse=True
-        )[:5]
+        )[:top_k]
+
         bottom_5_recommendations=sorted(
             product_similarity, 
             key=lambda x: float(x["Similarity"]), 
             reverse=False
-        )[:5]
-        
-        return {"top_recommendations":top_recommendations,
-                "product_sentiment":top_5_recommendations+bottom_5_recommendations
-                }
-                
+        )[:top_k][::-1]
+
+        return top_5_recommendations + bottom_5_recommendations
 
     def _cosine_similarity(self, vec1, vec2):
         """
