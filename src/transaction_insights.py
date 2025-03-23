@@ -1,7 +1,7 @@
 import json
 
 customer_transaction_insights = None
-with open("./data/customer_monthly_insights.json", "r") as file:
+with open("./data/customer_monthly_transaction_insights.json", "r") as file:
   customer_transaction_insights= json.load(file)
 
 

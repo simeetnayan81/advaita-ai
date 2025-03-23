@@ -4,7 +4,7 @@ import json
 customer_profiles=None
 social_media_posts=None
 
-with open("./data/updated_customer_profile.json", "r") as file:
+with open("./data/customer_profile.json", "r") as file:
     customer_profiles = json.load(file)
     
 with open("./data/non_contradictory_social_media_posts.json", "r") as file:
