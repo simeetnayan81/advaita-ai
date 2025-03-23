@@ -6,6 +6,7 @@ import json
 from .product_service import get_recommended_products, get_all_product_data
 from .customer_service import get_customer_profile, get_all_customer_data
 from .llm_service import generate_customer_analysis, generate_product_recommendations
+from .transaction_insights import getCustomerTransactionsInsight
 
 # Load environment variables
 load_dotenv()
@@ -29,6 +30,10 @@ async def get_allProductData():
 async def get_allCustomerData():
     all_customer_data = get_all_customer_data()
     return all_customer_data
+
+@app.get("/customer_transaction_insights/{customer_id}")
+async def get_customer_transaction_insights(customer_id: str):
+    return getCustomerTransactionsInsight(customer_id)
 
 
 @app.get("/customer_data/{customer_id}")
