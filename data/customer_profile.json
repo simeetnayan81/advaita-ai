@@ -90,7 +90,7 @@
         "FrequentlyUsedPaymentMode": [
             "Debit Card",
             "Bank Transfer",
-            "UPI"
+            "Zelle"
         ]
     },
     {
@@ -137,7 +137,7 @@
         "FrequentlyUsedPaymentMode": [
             "Debit Card",
             "Bank Transfer",
-            "UPI"
+            "Zelle"
         ]
     },
     {
@@ -229,7 +229,7 @@
             "Shopping"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Bank Transfer",
             "Debit Card"
         ]
@@ -324,7 +324,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Credit Card",
-            "UPI",
+            "Zelle",
             "Bank Transfer"
         ]
     },
@@ -418,7 +418,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
-            "UPI",
+            "Zelle",
             "Credit Card"
         ]
     },
@@ -466,7 +466,7 @@
         "FrequentlyUsedPaymentMode": [
             "Debit Card",
             "Bank Transfer",
-            "UPI"
+            "Zelle"
         ]
     },
     {
@@ -512,7 +512,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Debit Card",
-            "UPI",
+            "Zelle",
             "Credit Card"
         ]
     },
@@ -560,7 +560,7 @@
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
             "Debit Card",
-            "UPI"
+            "Zelle"
         ]
     },
     {
@@ -887,7 +887,7 @@
             "Entertainment"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Digital Payment",
             "Bank Transfer"
         ]
@@ -936,7 +936,7 @@
         "FrequentlyUsedPaymentMode": [
             "Credit Card",
             "Debit Card",
-            "UPI"
+            "Zelle"
         ]
     },
     {
@@ -1029,7 +1029,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Bank Transfer",
-            "UPI",
+            "Zelle",
             "Digital Payment"
         ]
     },
@@ -1311,7 +1311,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Debit Card",
-            "UPI",
+            "Zelle",
             "Digital Payment"
         ]
     },
@@ -1357,7 +1357,7 @@
             "Dining"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Credit Card",
             "Bank Transfer"
         ]
@@ -1406,7 +1406,7 @@
         "FrequentlyUsedPaymentMode": [
             "Debit Card",
             "Bank Transfer",
-            "UPI"
+            "Zelle"
         ]
     },
     {
@@ -1451,7 +1451,7 @@
             "Dining"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Debit Card",
             "Digital Payment"
         ]
@@ -1498,7 +1498,7 @@
             "Travel"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Credit Card",
             "Digital Payment"
         ]
@@ -1547,7 +1547,7 @@
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
             "Bank Transfer",
-            "UPI"
+            "Zelle"
         ]
     },
     {
@@ -1592,7 +1592,7 @@
             "Dining"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Debit Card",
             "Credit Card"
         ]
@@ -1735,7 +1735,7 @@
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
             "Credit Card",
-            "UPI"
+            "Zelle"
         ]
     },
     {
@@ -1874,7 +1874,7 @@
             "Education"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Debit Card",
             "Digital Payment"
         ]
@@ -2015,7 +2015,7 @@
             "Dining"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Digital Payment",
             "Debit Card"
         ]
@@ -2158,7 +2158,7 @@
         "FrequentlyUsedPaymentMode": [
             "Credit Card",
             "Debit Card",
-            "UPI"
+            "Zelle"
         ]
     },
     {
@@ -2297,7 +2297,7 @@
             "Shopping"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Bank Transfer",
             "Digital Payment"
         ]
@@ -2344,7 +2344,7 @@
             "Education"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Debit Card",
             "Digital Payment"
         ]
@@ -2393,7 +2393,7 @@
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
             "Debit Card",
-            "UPI"
+            "Zelle"
         ]
     },
     {
@@ -2486,7 +2486,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
-            "UPI",
+            "Zelle",
             "Bank Transfer"
         ]
     },
@@ -2532,7 +2532,7 @@
             "Lifestyle"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Digital Payment",
             "Bank Transfer"
         ]
@@ -2581,7 +2581,7 @@
         "FrequentlyUsedPaymentMode": [
             "Bank Transfer",
             "Debit Card",
-            "UPI"
+            "Zelle"
         ]
     },
     {
@@ -2674,7 +2674,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Bank Transfer",
-            "UPI",
+            "Zelle",
             "Digital Payment"
         ]
     },
@@ -2768,7 +2768,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
-            "UPI",
+            "Zelle",
             "Bank Transfer"
         ]
     },
@@ -2815,7 +2815,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Credit Card",
-            "UPI",
+            "Zelle",
             "Digital Payment"
         ]
     },
@@ -2861,7 +2861,7 @@
             "Travel"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Credit Card",
             "Debit Card"
         ]
@@ -2909,7 +2909,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Bank Transfer",
-            "UPI",
+            "Zelle",
             "Credit Card"
         ]
     },
@@ -2956,7 +2956,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Bank Transfer",
-            "UPI",
+            "Zelle",
             "Credit Card"
         ]
     },
@@ -3049,7 +3049,7 @@
             "Travel"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Bank Transfer",
             "Debit Card"
         ]
@@ -3144,7 +3144,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
-            "UPI",
+            "Zelle",
             "Credit Card"
         ]
     },
@@ -3333,7 +3333,7 @@
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
             "Credit Card",
-            "UPI"
+            "Zelle"
         ]
     },
     {
@@ -3520,7 +3520,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Debit Card",
-            "UPI",
+            "Zelle",
             "Digital Payment"
         ]
     },
@@ -3567,7 +3567,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Debit Card",
-            "UPI",
+            "Zelle",
             "Bank Transfer"
         ]
     },
@@ -3614,7 +3614,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Debit Card",
-            "UPI",
+            "Zelle",
             "Digital Payment"
         ]
     },
@@ -3661,7 +3661,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Credit Card",
-            "UPI",
+            "Zelle",
             "Bank Transfer"
         ]
     },
@@ -3709,7 +3709,7 @@
         "FrequentlyUsedPaymentMode": [
             "Bank Transfer",
             "Credit Card",
-            "UPI"
+            "Zelle"
         ]
     },
     {
@@ -3756,7 +3756,7 @@
         "FrequentlyUsedPaymentMode": [
             "Bank Transfer",
             "Credit Card",
-            "UPI"
+            "Zelle"
         ]
     },
     {
@@ -3803,7 +3803,7 @@
         "FrequentlyUsedPaymentMode": [
             "Credit Card",
             "Digital Payment",
-            "UPI"
+            "Zelle"
         ]
     },
     {
@@ -3896,7 +3896,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
-            "UPI",
+            "Zelle",
             "Debit Card"
         ]
     },
@@ -3942,7 +3942,7 @@
             "Travel"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Digital Payment",
             "Bank Transfer"
         ]
@@ -4085,7 +4085,7 @@
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
             "Credit Card",
-            "UPI"
+            "Zelle"
         ]
     },
     {
@@ -4130,7 +4130,7 @@
             "Education"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Digital Payment",
             "Debit Card"
         ]
@@ -4177,7 +4177,7 @@
             "Education"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Digital Payment",
             "Debit Card"
         ]
@@ -4226,7 +4226,7 @@
         "FrequentlyUsedPaymentMode": [
             "Bank Transfer",
             "Digital Payment",
-            "UPI"
+            "Zelle"
         ]
     },
     {
@@ -4320,7 +4320,7 @@
         "FrequentlyUsedPaymentMode": [
             "Debit Card",
             "Bank Transfer",
-            "UPI"
+            "Zelle"
         ]
     },
     {
@@ -4414,7 +4414,7 @@
         "FrequentlyUsedPaymentMode": [
             "Bank Transfer",
             "Credit Card",
-            "UPI"
+            "Zelle"
         ]
     },
     {
@@ -4461,7 +4461,7 @@
         "FrequentlyUsedPaymentMode": [
             "Credit Card",
             "Digital Payment",
-            "UPI"
+            "Zelle"
         ]
     },
     {
@@ -4601,7 +4601,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Bank Transfer",
-            "UPI",
+            "Zelle",
             "Credit Card"
         ]
     },
@@ -4648,7 +4648,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
-            "UPI",
+            "Zelle",
             "Credit Card"
         ]
     },
@@ -4696,7 +4696,7 @@
         "FrequentlyUsedPaymentMode": [
             "Credit Card",
             "Digital Payment",
-            "UPI"
+            "Zelle"
         ]
     }
 ]

@@ -6,7 +6,7 @@ import json
 from .product_service import get_recommended_products, get_all_product_data
 from .customer_service import get_customer_profile, get_all_customer_data
 from .llm_service import generate_customer_analysis, generate_product_recommendations
-from .transaction_insights import getCustomerTransactionsInsight
+from .transaction_service import getCustomerTransactionsInsight
 
 # Load environment variables
 load_dotenv()
@@ -62,16 +62,18 @@ async def get_product_recommendations(customer_id: str):
 
     # Get product recommendations based on analysis
     product_offering = analysis_result.get("product_offering", "")
-    recommended_products = get_recommended_products(product_offering)
+    product_insights = get_recommended_products(product_offering)
+    
+
     
     # Generate detailed product recommendations using LLM
     detailed_recommendations = generate_product_recommendations(
         client, 
         analysis_result, 
-        recommended_products
+        product_insights["top_recommendations"]
     )
     
-    return {"profile": profile_summary, "recommended": recommended_products, "products": detailed_recommendations}
+    return {"profile": profile_summary, "recommended": product_insights["top_recommendations"], "products_sentiment":product_insights["product_sentiment"] ,"products": detailed_recommendations}
 
 def create_analysis_prompt(customer_profile):
     """

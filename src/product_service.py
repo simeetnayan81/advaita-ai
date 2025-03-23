@@ -5,6 +5,7 @@ from scipy.spatial.distance import cosine
 
 
 products=None
+
 product_file_path="./data/products.json"
 with open(product_file_path, "r") as file:
     products = json.load(file)
@@ -60,11 +61,13 @@ class ProductRecommender:
         # Vectorize the input text
         text_vector = self.model.encode(text)
         
-        # Calculate similarities
-        similarities = []
+        # Calculate product_similarity
+        product_similarity=[]
+        
         for product in self.product_vectors:
             similarity = self._cosine_similarity(text_vector, product["Product_Vector"])
-            similarities.append({
+            similarity = (similarity+1)/2.0
+            product_similarity.append({
                 "Product_Name": product["Product_Name"],
                 "Product_Category": product["Product_Category"],
                 "Similarity": str(similarity)
@@ -72,13 +75,27 @@ class ProductRecommender:
         
         # Sort by similarity and get top k
         top_recommendations = sorted(
-            similarities, 
+            product_similarity, 
             key=lambda x: float(x["Similarity"]), 
             reverse=True
         )[:top_k]
+        #products_sentiment = self.product_sentiment(product_similarity)
+        top_5_recommendations = sorted(
+            product_similarity, 
+            key=lambda x: float(x["Similarity"]), 
+            reverse=True
+        )[:5]
+        bottom_5_recommendations=sorted(
+            product_similarity, 
+            key=lambda x: float(x["Similarity"]), 
+            reverse=False
+        )[:5]
         
-        return top_recommendations
-    
+        return {"top_recommendations":top_recommendations,
+                "product_sentiment":top_5_recommendations+bottom_5_recommendations
+                }
+                
+
     def _cosine_similarity(self, vec1, vec2):
         """
         Calculate cosine similarity between two vectors

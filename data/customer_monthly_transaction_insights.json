@@ -84,7 +84,7 @@
         "FrequentlyUsedPaymentMode": [
             "Debit Card",
             "Bank Transfer",
-            "UPI"
+            "Zelle"
         ],
         "Transaction_Insights": [
             {
@@ -159,7 +159,7 @@
         "FrequentlyUsedPaymentMode": [
             "Debit Card",
             "Bank Transfer",
-            "UPI"
+            "Zelle"
         ],
         "Transaction_Insights": [
             {
@@ -307,7 +307,7 @@
             "Shopping"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Bank Transfer",
             "Debit Card"
         ],
@@ -458,7 +458,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Credit Card",
-            "UPI",
+            "Zelle",
             "Bank Transfer"
         ],
         "Transaction_Insights": [
@@ -608,7 +608,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
-            "UPI",
+            "Zelle",
             "Credit Card"
         ],
         "Transaction_Insights": [
@@ -684,7 +684,7 @@
         "FrequentlyUsedPaymentMode": [
             "Debit Card",
             "Bank Transfer",
-            "UPI"
+            "Zelle"
         ],
         "Transaction_Insights": [
             {
@@ -758,7 +758,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Debit Card",
-            "UPI",
+            "Zelle",
             "Credit Card"
         ],
         "Transaction_Insights": [
@@ -834,7 +834,7 @@
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
             "Debit Card",
-            "UPI"
+            "Zelle"
         ],
         "Transaction_Insights": [
             {
@@ -1357,7 +1357,7 @@
             "Entertainment"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Digital Payment",
             "Bank Transfer"
         ],
@@ -1434,7 +1434,7 @@
         "FrequentlyUsedPaymentMode": [
             "Credit Card",
             "Debit Card",
-            "UPI"
+            "Zelle"
         ],
         "Transaction_Insights": [
             {
@@ -1583,7 +1583,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Bank Transfer",
-            "UPI",
+            "Zelle",
             "Digital Payment"
         ],
         "Transaction_Insights": [
@@ -2033,7 +2033,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Debit Card",
-            "UPI",
+            "Zelle",
             "Digital Payment"
         ],
         "Transaction_Insights": [
@@ -2107,7 +2107,7 @@
             "Dining"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Credit Card",
             "Bank Transfer"
         ],
@@ -2184,7 +2184,7 @@
         "FrequentlyUsedPaymentMode": [
             "Debit Card",
             "Bank Transfer",
-            "UPI"
+            "Zelle"
         ],
         "Transaction_Insights": [
             {
@@ -2257,7 +2257,7 @@
             "Dining"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Debit Card",
             "Digital Payment"
         ],
@@ -2332,7 +2332,7 @@
             "Travel"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Credit Card",
             "Digital Payment"
         ],
@@ -2409,7 +2409,7 @@
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
             "Bank Transfer",
-            "UPI"
+            "Zelle"
         ],
         "Transaction_Insights": [
             {
@@ -2482,7 +2482,7 @@
             "Dining"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Debit Card",
             "Credit Card"
         ],
@@ -2709,7 +2709,7 @@
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
             "Credit Card",
-            "UPI"
+            "Zelle"
         ],
         "Transaction_Insights": [
             {
@@ -2932,7 +2932,7 @@
             "Education"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Debit Card",
             "Digital Payment"
         ],
@@ -3157,7 +3157,7 @@
             "Dining"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Digital Payment",
             "Debit Card"
         ],
@@ -3384,7 +3384,7 @@
         "FrequentlyUsedPaymentMode": [
             "Credit Card",
             "Debit Card",
-            "UPI"
+            "Zelle"
         ],
         "Transaction_Insights": [
             {
@@ -3607,7 +3607,7 @@
             "Shopping"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Bank Transfer",
             "Digital Payment"
         ],
@@ -3682,7 +3682,7 @@
             "Education"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Debit Card",
             "Digital Payment"
         ],
@@ -3759,7 +3759,7 @@
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
             "Debit Card",
-            "UPI"
+            "Zelle"
         ],
         "Transaction_Insights": [
             {
@@ -3908,7 +3908,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
-            "UPI",
+            "Zelle",
             "Bank Transfer"
         ],
         "Transaction_Insights": [
@@ -3982,7 +3982,7 @@
             "Lifestyle"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Digital Payment",
             "Bank Transfer"
         ],
@@ -4059,7 +4059,7 @@
         "FrequentlyUsedPaymentMode": [
             "Bank Transfer",
             "Debit Card",
-            "UPI"
+            "Zelle"
         ],
         "Transaction_Insights": [
             {
@@ -4208,7 +4208,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Bank Transfer",
-            "UPI",
+            "Zelle",
             "Digital Payment"
         ],
         "Transaction_Insights": [
@@ -4358,7 +4358,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
-            "UPI",
+            "Zelle",
             "Bank Transfer"
         ],
         "Transaction_Insights": [
@@ -4433,7 +4433,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Credit Card",
-            "UPI",
+            "Zelle",
             "Digital Payment"
         ],
         "Transaction_Insights": [
@@ -4507,7 +4507,7 @@
             "Travel"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Credit Card",
             "Debit Card"
         ],
@@ -4583,7 +4583,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Bank Transfer",
-            "UPI",
+            "Zelle",
             "Credit Card"
         ],
         "Transaction_Insights": [
@@ -4658,7 +4658,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Bank Transfer",
-            "UPI",
+            "Zelle",
             "Credit Card"
         ],
         "Transaction_Insights": [
@@ -4807,7 +4807,7 @@
             "Travel"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Bank Transfer",
             "Debit Card"
         ],
@@ -4958,7 +4958,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
-            "UPI",
+            "Zelle",
             "Credit Card"
         ],
         "Transaction_Insights": [
@@ -5259,7 +5259,7 @@
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
             "Credit Card",
-            "UPI"
+            "Zelle"
         ],
         "Transaction_Insights": [
             {
@@ -5558,7 +5558,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Debit Card",
-            "UPI",
+            "Zelle",
             "Digital Payment"
         ],
         "Transaction_Insights": [
@@ -5633,7 +5633,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Debit Card",
-            "UPI",
+            "Zelle",
             "Bank Transfer"
         ],
         "Transaction_Insights": [
@@ -5708,7 +5708,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Debit Card",
-            "UPI",
+            "Zelle",
             "Digital Payment"
         ],
         "Transaction_Insights": [
@@ -5783,7 +5783,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Credit Card",
-            "UPI",
+            "Zelle",
             "Bank Transfer"
         ],
         "Transaction_Insights": [
@@ -5859,7 +5859,7 @@
         "FrequentlyUsedPaymentMode": [
             "Bank Transfer",
             "Credit Card",
-            "UPI"
+            "Zelle"
         ],
         "Transaction_Insights": [
             {
@@ -5934,7 +5934,7 @@
         "FrequentlyUsedPaymentMode": [
             "Bank Transfer",
             "Credit Card",
-            "UPI"
+            "Zelle"
         ],
         "Transaction_Insights": [
             {
@@ -6009,7 +6009,7 @@
         "FrequentlyUsedPaymentMode": [
             "Credit Card",
             "Digital Payment",
-            "UPI"
+            "Zelle"
         ],
         "Transaction_Insights": [
             {
@@ -6158,7 +6158,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
-            "UPI",
+            "Zelle",
             "Debit Card"
         ],
         "Transaction_Insights": [
@@ -6232,7 +6232,7 @@
             "Travel"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Digital Payment",
             "Bank Transfer"
         ],
@@ -6459,7 +6459,7 @@
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
             "Credit Card",
-            "UPI"
+            "Zelle"
         ],
         "Transaction_Insights": [
             {
@@ -6532,7 +6532,7 @@
             "Education"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Digital Payment",
             "Debit Card"
         ],
@@ -6607,7 +6607,7 @@
             "Education"
         ],
         "FrequentlyUsedPaymentMode": [
-            "UPI",
+            "Zelle",
             "Digital Payment",
             "Debit Card"
         ],
@@ -6684,7 +6684,7 @@
         "FrequentlyUsedPaymentMode": [
             "Bank Transfer",
             "Digital Payment",
-            "UPI"
+            "Zelle"
         ],
         "Transaction_Insights": [
             {
@@ -6834,7 +6834,7 @@
         "FrequentlyUsedPaymentMode": [
             "Debit Card",
             "Bank Transfer",
-            "UPI"
+            "Zelle"
         ],
         "Transaction_Insights": [
             {
@@ -6984,7 +6984,7 @@
         "FrequentlyUsedPaymentMode": [
             "Bank Transfer",
             "Credit Card",
-            "UPI"
+            "Zelle"
         ],
         "Transaction_Insights": [
             {
@@ -7059,7 +7059,7 @@
         "FrequentlyUsedPaymentMode": [
             "Credit Card",
             "Digital Payment",
-            "UPI"
+            "Zelle"
         ],
         "Transaction_Insights": [
             {
@@ -7283,7 +7283,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Bank Transfer",
-            "UPI",
+            "Zelle",
             "Credit Card"
         ],
         "Transaction_Insights": [
@@ -7358,7 +7358,7 @@
         ],
         "FrequentlyUsedPaymentMode": [
             "Digital Payment",
-            "UPI",
+            "Zelle",
             "Credit Card"
         ],
         "Transaction_Insights": [
@@ -7434,7 +7434,7 @@
         "FrequentlyUsedPaymentMode": [
             "Credit Card",
             "Digital Payment",
-            "UPI"
+            "Zelle"
         ],
         "Transaction_Insights": [
             {
