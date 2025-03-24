@@ -1,254 +1,915 @@
 [
     {
-        "product_id": "1",
-        "name": "Visa Classic",
-        "description": "A widely accepted card with standard features.",
-        "features": "Global acceptance, Basic rewards",
-        "category": "Plastic Card"
+      "product_id": "1",
+      "name": "Visa Classic",
+      "description": "A widely accepted card with standard features.",
+      "features": "Global acceptance, Basic rewards",
+      "category": "Plastic Card",
+      "annual_fee": "$0 - $25",
+      "credit_limit": "$500 - $5,000",
+      "eligibility": "Minimum age 18, Basic income requirements",
+      "rewards": "1 point per $1 spent on eligible purchases",
+      "additional_benefits": "Purchase protection, Fraud monitoring",
+      "interest_rate": "18% - 25% APR",
+      "late_payment_fee": "$25 - $35",
+      "customer_usage": {
+        "average_spending_per_month": "$200 - $1,000",
+        "common_transaction_types": ["Groceries", "Fuel", "Dining"],
+        "customer_satisfaction": "4.2/5"
+      },
+      "customer_feedback": "Customers appreciate the global acceptance and basic rewards program.",
+      "customer_reviews": [
+        "Good basic card for everyday use.",
+        "Easy to get approved for.",
+        "Rewards are okay, nothing special."
+      ]
     },
     {
-        "product_id": "2",
-        "name": "Visa Gold",
-        "description": "A premium card offering better rewards and services.",
-        "features": "Higher credit limit, Travel insurance",
-        "category": "Plastic Card"
+      "product_id": "2",
+      "name": "Visa Gold",
+      "description": "A premium card offering better rewards and services.",
+      "features": "Higher credit limit, Travel insurance",
+      "category": "Plastic Card",
+      "annual_fee": "$75 - $150",
+      "credit_limit": "$5,000 - $25,000",
+      "eligibility": "Minimum age 21, Moderate income and credit score",
+      "rewards": "1.5 points per $1 spent, Bonus points on travel",
+      "additional_benefits": "Travel accident insurance, Baggage delay insurance",
+      "interest_rate": "15% - 22% APR",
+      "late_payment_fee": "$30 - $40",
+      "customer_usage": {
+        "average_spending_per_month": "$1,000 - $5,000",
+        "common_transaction_types": ["Travel", "Dining", "Shopping"],
+        "customer_satisfaction": "4.5/5"
+      },
+      "customer_feedback": "Customers value the travel benefits and higher credit limit.",
+      "customer_reviews": [
+        "Great for frequent travelers.",
+        "Good rewards program.",
+        "Annual fee is worth the benefits."
+      ]
     },
     {
-        "product_id": "3",
-        "name": "Visa Platinum",
-        "description": "An elite card with exclusive benefits.",
-        "features": "Premium rewards, Concierge service",
-        "category": "Plastic Card"
+      "product_id": "3",
+      "name": "Visa Platinum",
+      "description": "An elite card with exclusive benefits.",
+      "features": "Premium rewards, Concierge service",
+      "category": "Plastic Card",
+      "annual_fee": "$150 - $500",
+      "credit_limit": "$10,000+",
+      "eligibility": "Minimum age 25, High income and excellent credit score",
+      "rewards": "2 points per $1 spent, Luxury travel rewards",
+      "additional_benefits": "24/7 concierge service, Airport lounge access",
+      "interest_rate": "12% - 18% APR",
+      "late_payment_fee": "$35 - $45",
+      "customer_usage": {
+        "average_spending_per_month": "$5,000+",
+        "common_transaction_types": ["Luxury goods", "Fine dining", "International travel"],
+        "customer_satisfaction": "4.7/5"
+      },
+      "customer_feedback": "Customers appreciate the exclusive benefits and premium rewards.",
+      "customer_reviews": [
+        "Excellent card for high-end spending.",
+        "Concierge service is very helpful.",
+        "Rewards are fantastic."
+      ]
     },
     {
-        "product_id": "4",
-        "name": "MasterCard Standard",
-        "description": "A basic card with essential features.",
-        "features": "Global acceptance, Fraud protection",
-        "category": "Plastic Card"
+      "product_id": "4",
+      "name": "MasterCard Standard",
+      "description": "A basic card with essential features.",
+      "features": "Global acceptance, Fraud protection",
+      "category": "Plastic Card",
+      "annual_fee": "$0 - $20",
+      "credit_limit": "$500 - $4,000",
+      "eligibility": "Minimum age 18, Basic income requirements",
+      "rewards": "Basic rewards program available",
+      "additional_benefits": "Zero liability for unauthorized charges",
+      "interest_rate": "18% - 26% APR",
+      "late_payment_fee": "$25 - $35",
+      "customer_usage": {
+        "average_spending_per_month": "$150 - $800",
+        "common_transaction_types": ["Everyday purchases", "Online shopping"],
+        "customer_satisfaction": "4.1/5"
+      },
+      "customer_feedback": "Customers find it a reliable card for everyday transactions.",
+      "customer_reviews": [
+        "Simple and easy to use.",
+        "Good for building credit.",
+        "Basic features, but it gets the job done."
+      ]
     },
     {
-        "product_id": "5",
-        "name": "MasterCard Gold",
-        "description": "A premium card with enhanced benefits.",
-        "features": "Higher rewards, Travel perks",
-        "category": "Plastic Card"
+      "product_id": "5",
+      "name": "MasterCard Gold",
+      "description": "A premium card with enhanced benefits.",
+      "features": "Higher rewards, Travel perks",
+      "category": "Plastic Card",
+      "annual_fee": "$60 - $120",
+      "credit_limit": "$4,000 - $20,000",
+      "eligibility": "Minimum age 21, Moderate income and credit score",
+      "rewards": "Enhanced rewards program, Bonus on travel and dining",
+      "additional_benefits": "Travel assistance services, Extended warranty",
+      "interest_rate": "16% - 23% APR",
+      "late_payment_fee": "$30 - $40",
+      "customer_usage": {
+        "average_spending_per_month": "$800 - $4,000",
+        "common_transaction_types": ["Travel", "Restaurants", "Entertainment"],
+        "customer_satisfaction": "4.4/5"
+      },
+      "customer_feedback": "Customers enjoy the better rewards and travel-related perks.",
+      "customer_reviews": [
+        "Great for dining out and travel.",
+        "Decent rewards points.",
+        "Good value for the annual fee."
+      ]
     },
     {
-        "product_id": "6",
-        "name": "MasterCard Platinum",
-        "description": "A card for the elite, offering exclusive services.",
-        "features": "Luxury rewards, Personalized offers",
-        "category": "Plastic Card"
+      "product_id": "6",
+      "name": "MasterCard Platinum",
+      "description": "A card for the elite, offering exclusive services.",
+      "features": "Luxury rewards, Personalized offers",
+      "category": "Plastic Card",
+      "annual_fee": "$120 - $400",
+      "credit_limit": "$8,000+",
+      "eligibility": "Minimum age 25, High income and excellent credit score",
+      "rewards": "Premium rewards program, Personalized offers and experiences",
+      "additional_benefits": "Dedicated customer service, Luxury travel benefits",
+      "interest_rate": "13% - 19% APR",
+      "late_payment_fee": "$35 - $45",
+      "customer_usage": {
+        "average_spending_per_month": "$4,000+",
+        "common_transaction_types": ["Luxury shopping", "Premium travel", "Exclusive events"],
+        "customer_satisfaction": "4.6/5"
+      },
+      "customer_feedback": "Customers appreciate the personalized offers and luxury benefits.",
+      "customer_reviews": [
+        "Feels like a truly premium card.",
+        "The offers are tailored to my interests.",
+        "Excellent customer support."
+      ]
     },
     {
-        "product_id": "7",
-        "name": "American Express",
-        "description": "A card known for superior customer service.",
-        "features": "Membership rewards, Travel benefits",
-        "category": "Plastic Card"
+      "product_id": "7",
+      "name": "American Express",
+      "description": "A card known for superior customer service.",
+      "features": "Membership rewards, Travel benefits",
+      "category": "Plastic Card",
+      "annual_fee": "$0 - $695 (depending on the specific card)",
+      "credit_limit": "Varies based on spending and creditworthiness",
+      "eligibility": "Good to excellent credit score",
+      "rewards": "Membership Rewards program, varies by card",
+      "additional_benefits": "Superior customer service, Travel insurance, Purchase protection",
+      "interest_rate": "Varies by card",
+      "late_payment_fee": "Varies by card",
+      "customer_usage": {
+        "average_spending_per_month": "Varies widely",
+        "common_transaction_types": ["Travel", "Dining", "Retail"],
+        "customer_satisfaction": "4.7/5"
+      },
+      "customer_feedback": "Customers consistently praise the excellent customer service and valuable rewards.",
+      "customer_reviews": [
+        "Best customer service I've ever experienced.",
+        "The rewards are fantastic for travel.",
+        "Worth the annual fee for the perks."
+      ]
     },
     {
-        "product_id": "8",
-        "name": "Discover",
-        "description": "A card offering cashback rewards.",
-        "features": "No annual fee, Cashback on purchases",
-        "category": "Plastic Card"
+      "product_id": "8",
+      "name": "Discover",
+      "description": "A card offering cashback rewards.",
+      "features": "No annual fee, Cashback on purchases",
+      "category": "Plastic Card",
+      "annual_fee": "$0",
+      "credit_limit": "$500 - $15,000+",
+      "eligibility": "Fair to good credit score",
+      "rewards": "Cashback rewards on rotating categories and all other purchases",
+      "additional_benefits": "Fraud protection, Credit score monitoring",
+      "interest_rate": "14% - 25% APR",
+      "late_payment_fee": "$0 - $39",
+      "customer_usage": {
+        "average_spending_per_month": "$300 - $2,000",
+        "common_transaction_types": ["Groceries", "Gas", "Online shopping"],
+        "customer_satisfaction": "4.5/5"
+      },
+      "customer_feedback": "Customers love the no annual fee and the straightforward cashback rewards.",
+      "customer_reviews": [
+        "Great card for earning cashback.",
+        "No annual fee is a big plus.",
+        "Rotating categories keep it interesting."
+      ]
     },
     {
-        "product_id": "9",
-        "name": "UnionPay",
-        "description": "A card widely accepted in Asia.",
-        "features": "Global acceptance, Special offers in Asia",
-        "category": "Plastic Card"
+      "product_id": "9",
+      "name": "UnionPay",
+      "description": "A card widely accepted in Asia.",
+      "features": "Global acceptance, Special offers in Asia",
+      "category": "Plastic Card",
+      "annual_fee": "Varies by issuing bank",
+      "credit_limit": "Varies by issuing bank",
+      "eligibility": "Varies by issuing bank",
+      "rewards": "Varies by issuing bank, often with a focus on Asian travel and spending",
+      "additional_benefits": "Special offers and discounts with merchants in Asia",
+      "interest_rate": "Varies by issuing bank",
+      "late_payment_fee": "Varies by issuing bank",
+      "customer_usage": {
+        "average_spending_per_month": "Varies",
+        "common_transaction_types": ["Travel in Asia", "Shopping in Asia", "International transactions"],
+        "customer_satisfaction": "4.3/5 (among users in Asia)"
+      },
+      "customer_feedback": "Customers appreciate its wide acceptance in Asia and the special offers available there.",
+      "customer_reviews": [
+        "Very convenient for travel to Asia.",
+        "Good discounts at many Asian stores.",
+        "Acceptance outside Asia can be limited."
+      ]
     },
     {
-        "product_id": "10",
-        "name": "Maestro",
-        "description": "A debit card with worldwide acceptance.",
-        "features": "No credit check, Pay as you go",
-        "category": "Plastic Card"
+      "product_id": "10",
+      "name": "Maestro",
+      "description": "A debit card with worldwide acceptance.",
+      "features": "No credit check, Pay as you go",
+      "category": "Plastic Card",
+      "annual_fee": "Typically none or very low, linked to bank account fees",
+      "spending_limit": "Limited by the balance in the linked bank account",
+      "eligibility": "Requires a bank account with a participating bank",
+      "rewards": "Generally no rewards program",
+      "additional_benefits": "Worldwide ATM access, Secure online payments",
+      "transaction_fee": "May apply for certain international transactions",
+      "overdraft_fee": "Linked to the bank account's overdraft policy",
+      "customer_usage": {
+        "average_spending_per_month": "Varies based on income and usage",
+        "common_transaction_types": ["Everyday purchases", "ATM withdrawals", "Online payments"],
+        "customer_satisfaction": "4.0/5"
+      },
+      "customer_feedback": "Customers appreciate the ease of use and the fact that there's no credit check involved.",
+      "customer_reviews": [
+        "Simple and reliable debit card.",
+        "Easy to manage finances.",
+        "No rewards, but it's convenient."
+      ]
     },
     {
-        "product_id": "11",
-        "name": "Visa Electron",
-        "description": "A debit card with no credit facility.",
-        "features": "Online payments, No overdraft",
-        "category": "Plastic Card"
+      "product_id": "11",
+      "name": "Visa Electron",
+      "description": "A debit card with no credit facility.",
+      "features": "Online payments, No overdraft",
+      "category": "Plastic Card",
+      "annual_fee": "Typically none or very low, linked to bank account fees",
+      "spending_limit": "Limited by the balance in the linked bank account",
+      "eligibility": "Requires a bank account with a participating bank",
+      "rewards": "Generally no rewards program",
+      "additional_benefits": "Suitable for online transactions, Prevents overdrafts",
+      "transaction_fee": "May apply for certain international transactions",
+      "overdraft_fee": "Not applicable as overdrafts are prevented",
+      "customer_usage": {
+        "average_spending_per_month": "Varies based on income and usage",
+        "common_transaction_types": ["Online shopping", "Small everyday purchases"],
+        "customer_satisfaction": "3.9/5"
+      },
+      "customer_feedback": "Customers like the control it offers by preventing overdrafts and its suitability for online payments.",
+      "customer_reviews": [
+        "Good for online shopping without worrying about credit.",
+        "Helps in managing expenses.",
+        "Not as widely accepted as other Visa cards."
+      ]
     },
     {
-        "product_id": "12",
-        "name": "JCB",
-        "description": "A card popular in Japan with unique rewards.",
-        "features": "Exclusive offers in Japan, Travel insurance",
-        "category": "Plastic Card"
+      "product_id": "12",
+      "name": "JCB",
+      "description": "A card popular in Japan with unique rewards.",
+      "features": "Exclusive offers in Japan, Travel insurance",
+      "category": "Plastic Card",
+      "annual_fee": "Varies by issuing bank and card level",
+      "credit_limit": "Varies by issuing bank and cardholder's creditworthiness",
+      "eligibility": "Varies by issuing bank",
+      "rewards": "Unique rewards program often focused on travel and experiences in Japan",
+      "additional_benefits": "Travel accident insurance, Special offers at JCB merchants, particularly in Japan",
+      "interest_rate": "Varies by issuing bank",
+      "late_payment_fee": "Varies by issuing bank",
+      "customer_usage": {
+        "average_spending_per_month": "Varies",
+        "common_transaction_types": ["Travel to Japan", "Shopping in Japan", "Dining"],
+        "customer_satisfaction": "4.4/5 (among users interested in Japan)"
+      },
+      "customer_feedback": "Customers who frequently travel to Japan highly value the exclusive offers and travel insurance.",
+      "customer_reviews": [
+        "A must-have for anyone visiting Japan frequently.",
+        "Great discounts at Japanese restaurants and stores.",
+        "Acceptance outside Japan can be less common."
+      ]
     },
     {
-        "product_id": "13",
-        "name": "Diners Club",
-        "description": "A prestigious card with global privileges.",
-        "features": "Exclusive dining offers, Airport lounge access",
-        "category": "Plastic Card"
+      "product_id": "13",
+      "name": "Diners Club",
+      "description": "A prestigious card with global privileges.",
+      "features": "Exclusive dining offers, Airport lounge access",
+      "category": "Plastic Card",
+      "annual_fee": "Varies by card level, typically higher",
+      "credit_limit": "Varies based on individual assessment",
+      "eligibility": "Generally requires a good to excellent credit score and history",
+      "rewards": "Rewards program often focused on travel and dining",
+      "additional_benefits": "Airport lounge access, Exclusive dining experiences, Travel and lifestyle benefits",
+      "interest_rate": "Varies by card",
+      "late_payment_fee": "Varies by card",
+      "customer_usage": {
+        "average_spending_per_month": "Higher than average",
+        "common_transaction_types": ["Fine dining", "Luxury travel", "Entertainment"],
+        "customer_satisfaction": "4.5/5"
+      },
+      "customer_feedback": "Customers appreciate the prestigious image and the valuable travel and dining privileges.",
+      "customer_reviews": [
+        "Feels like an exclusive membership.",
+        "The airport lounge access is a great perk.",
+        "Excellent for dining enthusiasts."
+      ]
     },
     {
-        "product_id": "14",
-        "name": "Prepaid Card",
-        "description": "A card that can be preloaded with funds.",
-        "features": "No credit check, Spend control",
-        "category": "Plastic Card"
+      "product_id": "14",
+      "name": "Prepaid Card",
+      "description": "A card that can be preloaded with funds.",
+      "features": "No credit check, Spend control",
+      "category": "Plastic Card",
+      "purchase_fee": "May apply upon initial purchase",
+      "loading_fee": "May apply when adding funds",
+      "spending_limit": "Limited to the amount preloaded onto the card",
+      "eligibility": "Generally available to anyone, no credit check required",
+      "rewards": "Limited or no rewards programs",
+      "additional_benefits": "Useful for budgeting, Can be used for online shopping",
+      "monthly_fee": "May apply if the card is not used regularly",
+      "ATM_withdrawal_fee": "May apply",
+      "customer_usage": {
+        "average_spending_per_month": "Varies based on the loaded amount",
+        "common_transaction_types": ["Budgeted spending", "Online purchases", "Travel expenses"],
+        "customer_satisfaction": "4.1/5"
+      },
+      "customer_feedback": "Customers find it a great tool for managing budgets and controlling spending.",
+      "customer_reviews": [
+        "Excellent for budgeting.",
+        "Easy to reload funds.",
+        "Fees can add up if not used carefully."
+      ]
     },
     {
-        "product_id": "15",
-        "name": "Business Card",
-        "description": "A card designed for business expenses.",
-        "features": "Expense tracking, Business rewards",
-        "category": "Plastic Card"
+      "product_id": "15",
+      "name": "Business Card",
+      "description": "A card designed for business expenses.",
+      "features": "Expense tracking, Business rewards",
+      "category": "Plastic Card",
+      "annual_fee": "$0 - $500+",
+      "credit_limit": "Varies based on business creditworthiness",
+      "eligibility": "Registered business with a good credit history",
+      "rewards": "Business-focused rewards like travel points, cashback on office supplies, etc.",
+      "additional_benefits": "Expense management tools, Employee cards, Reporting features",
+      "interest_rate": "Varies",
+      "late_payment_fee": "Varies",
+      "customer_usage": {
+        "average_spending_per_month": "Varies widely based on business size and type",
+        "common_transaction_types": ["Business travel", "Office supplies", "Marketing expenses"],
+        "customer_satisfaction": "4.4/5"
+      },
+      "customer_feedback": "Business owners appreciate the expense tracking and business-specific rewards.",
+      "customer_reviews": [
+        "Makes managing business expenses much easier.",
+        "Good rewards for business spending.",
+        "Essential tool for any business owner."
+      ]
     },
     {
-        "product_id": "16",
-        "name": "Salary Card",
-        "description": "A card used to receive and manage salaries.",
-        "features": "No fee, Payroll integration",
-        "category": "Plastic Card"
+      "product_id": "16",
+      "name": "Salary Card",
+      "description": "A card used to receive and manage salaries.",
+      "features": "No fee, Payroll integration",
+      "category": "Plastic Card",
+      "annual_fee": "$0",
+      "spending_limit": "Limited by the salary credited",
+      "eligibility": "Typically provided by employers as part of salary account",
+      "rewards": "Generally no rewards program",
+      "additional_benefits": "Easy access to salary, Convenient for transactions",
+      "transaction_fee": "Typically none for standard transactions and ATM withdrawals at designated banks",
+      "overdraft_facility": "May be available depending on the bank's policy",
+      "customer_usage": {
+        "average_spending_per_month": "Reflects the salary amount and spending habits",
+        "common_transaction_types": ["Everyday purchases", "ATM withdrawals", "Online payments"],
+        "customer_satisfaction": "4.2/5"
+      },
+      "customer_feedback": "Employees find it convenient for accessing their salary and making everyday transactions without fees.",
+      "customer_reviews": [
+        "Very convenient for managing my salary.",
+        "No fees are a great advantage.",
+        "Simple and easy to use."
+      ]
     },
     {
-        "product_id": "17",
-        "name": "Fixed Deposit",
-        "description": "A secure investment option with a fixed interest rate.",
-        "features": "Guaranteed returns, Flexible tenure",
-        "category": "Deposit"
+      "product_id": "17",
+      "name": "Fixed Deposit",
+      "description": "A secure investment option with a fixed interest rate.",
+      "features": "Guaranteed returns, Flexible tenure",
+      "category": "Deposit",
+      "interest_rate": "5% - 8% per annum (varies by tenure and bank)",
+      "tenure": "7 days to 10 years or more",
+      "minimum_deposit_amount": "$100 - $1,000",
+      "eligibility": "Resident individuals, NRIs, HUFs, Companies",
+      "taxation": "Interest earned is taxable as per income tax slab",
+      "premature_withdrawal_penalty": "0.5% - 1% of the interest rate",
+      "loan_facility_against_fd": "Available up to a certain percentage of the deposit amount",
+      "customer_usage": {
+        "average_deposit_amount": "$5,000 - $50,000",
+        "common_tenure_periods": ["1 year", "3 years", "5 years"],
+        "customer_satisfaction": "4.6/5"
+      },
+      "customer_feedback": "Customers appreciate the guaranteed returns and the security offered by fixed deposits.",
+      "customer_reviews": [
+        "Safe and reliable investment.",
+        "Good for long-term savings.",
+        "Interest rates could be higher."
+      ]
     },
     {
-        "product_id": "18",
-        "name": "Savings Account",
-        "description": "A basic account for saving money with interest.",
-        "features": "Interest on balance, No lock-in",
-        "category": "Deposit"
+      "product_id": "18",
+      "name": "Savings Account",
+      "description": "A basic account for saving money with interest.",
+      "features": "Interest on balance, No lock-in",
+      "category": "Deposit",
+      "interest_rate": "3% - 6% per annum (varies by bank and balance)",
+      "minimum_balance_requirement": "$0 - $500 (depending on the type of account)",
+      "eligibility": "Individuals, Minors (with guardian), HUFs",
+      "transaction_limitations": "May have daily or monthly transaction limits",
+      "ATM_access": "Available with a debit card",
+      "online_banking_facility": "Generally available",
+      "mobile_banking_facility": "Generally available",
+      "customer_usage": {
+        "average_balance": "$1,000 - $10,000",
+        "common_usage": ["Saving for short-term goals", "Emergency fund"],
+        "customer_satisfaction": "4.3/5"
+      },
+      "customer_feedback": "Customers find it convenient for saving money and appreciate the easy access to funds.",
+      "customer_reviews": [
+        "Easy to open and manage.",
+        "Good for keeping emergency funds.",
+        "Interest rates are not very high."
+      ]
     },
     {
-        "product_id": "19",
-        "name": "Recurring Deposit",
-        "description": "A product to save regularly and earn interest.",
-        "features": "Monthly deposits, Fixed interest rate",
-        "category": "Deposit"
+      "product_id": "19",
+      "name": "Recurring Deposit",
+      "description": "A product to save regularly and earn interest.",
+      "features": "Monthly deposits, Fixed interest rate",
+      "category": "Deposit",
+      "interest_rate": "5% - 7.5% per annum (varies by tenure and bank)",
+      "tenure": "6 months to 10 years",
+      "minimum_monthly_deposit": "$10 - $100",
+      "eligibility": "Individuals, Minors (with guardian)",
+      "penalty_for_missed_installments": "May apply",
+      "premature_withdrawal_rules": "May have restrictions and penalties",
+      "loan_facility_against_rd": "Available in some cases",
+      "customer_usage": {
+        "average_monthly_deposit": "$500 - $2,000",
+        "common_savings_goals": ["Down payment", "Education", "Marriage"],
+        "customer_satisfaction": "4.5/5"
+      },
+      "customer_feedback": "Customers like the discipline it instills in saving regularly and the fixed interest rate.",
+      "customer_reviews": [
+        "Great way to save small amounts regularly.",
+        "Predictable returns.",
+        "Penalties for missing payments can be strict."
+      ]
     },
     {
-        "product_id": "20",
-        "name": "Term Deposit",
-        "description": "A deposit with a fixed tenure and interest rate.",
-        "features": "Guaranteed returns, Early withdrawal penalty",
-        "category": "Deposit"
+      "product_id": "20",
+      "name": "Term Deposit",
+      "description": "A deposit with a fixed tenure and interest rate.",
+      "features": "Guaranteed returns, Early withdrawal penalty",
+      "category": "Deposit",
+      "interest_rate": "5.5% - 8.25% per annum (varies by tenure and bank)",
+      "tenure": "1 month to 5 years",
+      "minimum_deposit_amount": "$500 - $5,000",
+      "eligibility": "Individuals, NRIs, HUFs, Companies",
+      "taxation": "Interest earned is taxable",
+      "early_withdrawal_penalty": "Applicable, reduces the interest earned",
+      "auto_renewal_option": "Available with customer consent",
+      "nomination_facility": "Available",
+      "customer_usage": {
+        "average_deposit_amount": "$10,000 - $100,000",
+        "common_investment_horizons": ["Medium-term", "Specific financial goals"],
+        "customer_satisfaction": "4.7/5"
+      },
+      "customer_feedback": "Customers appreciate the higher interest rates compared to savings accounts and the guaranteed returns.",
+      "customer_reviews": [
+        "Good for growing savings over a fixed period.",
+        "Higher interest than regular savings.",
+        "Early withdrawal penalty can be a drawback."
+      ]
     },
     {
-        "product_id": "21",
-        "name": "High Yield Savings",
-        "description": "A savings account offering higher interest rates.",
-        "features": "Higher interest, Online management",
-        "category": "Deposit"
+      "product_id": "21",
+      "name": "High Yield Savings",
+      "description": "A savings account offering higher interest rates.",
+      "features": "Higher interest, Online management",
+      "category": "Deposit",
+      "interest_rate": "4% - 7% per annum (can vary frequently)",
+      "minimum_balance_requirement": "$0 - $1,000",
+      "eligibility": "Individuals",
+      "access_to_funds": "Primarily through online transfers, may have limited ATM access",
+      "fees": "Typically lower fees compared to traditional savings accounts",
+      "FDIC_insured": "Usually insured up to the applicable limit",
+      "withdrawal_limitations": "May have limitations on the number of withdrawals per month",
+      "customer_usage": {
+        "average_balance": "$5,000 - $25,000",
+        "common_usage": ["Parking funds for short to medium term", "Emergency savings"],
+        "customer_satisfaction": "4.4/5"
+      },
+      "customer_feedback": "Customers are attracted to the higher interest rates and the convenience of online management.",
+      "customer_reviews": [
+        "Better interest rates than regular savings.",
+        "Easy to manage online.",
+        "Access to funds might be slightly less convenient."
+      ]
     },
     {
-        "product_id": "22",
-        "name": "Junior Savings Account",
-        "description": "A savings account designed for children.",
-        "features": "Parental control, Lower minimum balance",
-        "category": "Deposit"
+      "product_id": "22",
+      "name": "Junior Savings Account",
+      "description": "A savings account designed for children.",
+      "features": "Parental control, Lower minimum balance",
+      "category": "Deposit",
+      "interest_rate": "3% - 5.5% per annum",
+      "minimum_balance_requirement": "$0 - $100",
+      "eligibility": "Minors, operated by a parent or guardian",
+      "withdrawal_limitations": "May have restrictions on withdrawals by the child",
+      "educational_resources": "Some accounts may offer financial literacy tools",
+      "gift_deposit_options": "Often available for family and friends to contribute",
+      "age_limit": "Typically available until the child reaches a certain age (e.g., 18)",
+      "customer_usage": {
+        "average_balance": "$500 - $5,000",
+        "common_usage": ["Teaching children about saving", "Saving for future education or goals"],
+        "customer_satisfaction": "4.2/5"
+      },
+      "customer_feedback": "Parents appreciate the features that help teach children about saving and the low minimum balance.",
+      "customer_reviews": [
+        "Great for teaching kids about money.",
+        "Easy for parents to manage.",
+        "Interest rates are not very high."
+      ]
     },
     {
-        "product_id": "23",
-        "name": "Retirement Savings Account",
-        "description": "A savings account aimed at retirement planning.",
-        "features": "Tax benefits, Long-term savings",
-        "category": "Deposit"
+      "product_id": "23",
+      "name": "Retirement Savings Account",
+      "description": "A savings account aimed at retirement planning.",
+      "features": "Tax benefits, Long-term savings",
+      "category": "Deposit",
+      "interest_rate": "Varies based on the specific plan and investments within it",
+      "contribution_limits": "Set by regulatory bodies and may vary annually",
+      "eligibility": "Individuals meeting specific age and employment criteria",
+      "tax_advantages": "Contributions may be tax-deductible, and earnings may grow tax-deferred or tax-free",
+      "withdrawal_restrictions": "Withdrawals before a certain age may incur penalties",
+      "investment_options": "May offer a range of investment options like mutual funds and bonds",
+      "government_regulations": "Subject to specific retirement savings regulations",
+      "customer_usage": {
+        "average_balance": "Varies widely based on age and income",
+        "common_usage": ["Saving for retirement", "Taking advantage of tax benefits"],
+        "customer_satisfaction": "4.5/5"
+      },
+      "customer_feedback": "Customers value the tax benefits and the focus on long-term retirement planning.",
+      "customer_reviews": [
+        "Excellent way to save for the future.",
+        "Tax benefits are a significant advantage.",
+        "Withdrawal rules can be restrictive."
+      ]
     },
     {
-        "product_id": "24",
-        "name": "Foreign Currency Deposit",
-        "description": "A deposit account in foreign currencies.",
-        "features": "Currency diversification, Competitive interest",
-        "category": "Deposit"
+      "product_id": "24",
+      "name": "Foreign Currency Deposit",
+      "description": "A deposit account in foreign currencies.",
+      "features": "Currency diversification, Competitive interest",
+      "category": "Deposit",
+      "interest_rate": "Varies based on the currency and the prevailing market rates",
+      "minimum_deposit_amount": "Varies by currency and bank",
+      "eligibility": "Individuals, Businesses",
+      "currency_options": "Typically offered in major currencies like USD, EUR, GBP, JPY",
+      "exchange_rate_risk": "Value of the deposit in home currency can fluctuate with exchange rates",
+      "taxation": "Interest earned is taxable as per local tax laws",
+      "repatriation_rules": "May vary depending on local regulations",
+      "customer_usage": {
+        "average_balance": "Varies widely",
+        "common_usage": ["Hedging against currency fluctuations", "Earning interest on foreign currency holdings"],
+        "customer_satisfaction": "4.3/5"
+      },
+      "customer_feedback": "Customers appreciate the opportunity for currency diversification and the competitive interest rates offered on some currencies.",
+      "customer_reviews": [
+        "Good for managing foreign currency holdings.",
+        "Interest rates can be attractive.",
+        "Need to be aware of exchange rate risks."
+      ]
     },
     {
-        "product_id": "25",
-        "name": "Senior Citizens Savings Scheme",
-        "description": "A deposit product for senior citizens.",
-        "features": "Higher interest rates, Tax benefits",
-        "category": "Deposit"
+      "product_id": "25",
+      "name": "Senior Citizens Savings Scheme",
+      "description": "A deposit product for senior citizens.",
+      "features": "Higher interest rates, Tax benefits",
+      "category": "Deposit",
+      "interest_rate": "Typically higher than regular fixed deposits (e.g., 6.5% - 9% per annum)",
+      "tenure": "Fixed tenure, often 5 years",
+      "maximum_investment_limit": "Set by the government",
+      "eligibility": "Individuals above a certain age (e.g., 60 years)",
+      "tax_benefits": "May offer tax deductions on the invested amount and tax exemptions on interest earned, depending on regulations",
+      "premature_withdrawal_rules": "Allowed with a penalty",
+      "nomination_facility": "Available",
+      "government_backed": "Often backed by the government, ensuring safety",
+      "customer_usage": {
+        "average_investment_amount": "Closer to the maximum limit",
+        "common_usage": ["Providing regular income post-retirement", "Ensuring capital safety"],
+        "customer_satisfaction": "4.8/5"
+      },
+      "customer_feedback": "Senior citizens highly value the higher interest rates and the tax benefits offered by this scheme.",
+      "customer_reviews": [
+        "Excellent for retirement income.",
+        "Safe and secure investment.",
+        "The fixed tenure might not suit everyone."
+      ]
     },
     {
-        "product_id": "26",
-        "name": "Home Loan",
-        "description": "A loan for purchasing a home with flexible terms.",
-        "features": "Long tenure, Tax benefits",
-        "category": "Loan"
+      "product_id": "26",
+      "name": "Home Loan",
+      "description": "A loan for purchasing a home with flexible terms.",
+      "features": "Long tenure, Tax benefits",
+      "category": "Loan",
+      "interest_rate": "6.5% - 9% per annum (can be fixed or floating)",
+      "loan_amount": "Varies based on property value, income, and creditworthiness",
+      "tenure": "5 to 30 years",
+      "eligibility": "Salaried or self-employed individuals with stable income and good credit score",
+      "tax_benefits": "Tax deductions on the principal and interest components of the EMI",
+      "processing_fees": "0.5% - 1% of the loan amount",
+      "prepayment_charges": "May apply in some cases",
+      "collateral": "The property being purchased acts as collateral",
+      "customer_usage": {
+        "average_loan_amount": "$50,000 - $500,000+",
+        "common_loan_purposes": ["Buying a new house", "Constructing a house"],
+        "customer_satisfaction": "4.2/5"
+      },
+      "customer_feedback": "Customers appreciate the long tenure and the tax benefits that make homeownership more accessible.",
+      "customer_reviews": [
+        "Helped me buy my dream home.",
+        "Long tenure makes EMIs manageable.",
+        "Processing can be lengthy."
+      ]
     },
     {
-        "product_id": "27",
-        "name": "Personal Loan",
-        "description": "An unsecured loan for personal needs.",
-        "features": "Quick approval, No collateral",
-        "category": "Loan"
+      "product_id": "27",
+      "name": "Personal Loan",
+      "description": "An unsecured loan for personal needs.",
+      "features": "Quick approval, No collateral",
+      "category": "Loan",
+      "interest_rate": "10% - 20% per annum (higher than secured loans)",
+      "loan_amount": "$1,000 - $50,000 (varies by lender and borrower profile)",
+      "tenure": "1 to 5 years",
+      "eligibility": "Salaried or self-employed individuals with a good credit score",
+      "processing_fees": "1% - 3% of the loan amount",
+      "prepayment_charges": "May apply",
+      "no_collateral_required": "Unsecured loan",
+      "end_use": "Can be used for various personal needs like medical expenses, education, travel",
+      "customer_usage": {
+        "average_loan_amount": "$5,000 - $20,000",
+        "common_loan_purposes": ["Medical emergencies", "Home renovation", "Wedding expenses"],
+        "customer_satisfaction": "4.0/5"
+      },
+      "customer_feedback": "Customers value the quick approval process and the fact that no collateral is required.",
+      "customer_reviews": [
+        "Got the funds quickly in an emergency.",
+        "No need to pledge any assets.",
+        "Interest rates are quite high."
+      ]
     },
     {
-        "product_id": "28",
-        "name": "Car Loan",
-        "description": "A loan for purchasing a vehicle with easy repayment.",
-        "features": "Low interest rates, Flexible tenure",
-        "category": "Loan"
+      "product_id": "28",
+      "name": "Car Loan",
+      "description": "A loan for purchasing a vehicle with easy repayment.",
+      "features": "Low interest rates, Flexible tenure",
+      "category": "Loan",
+      "interest_rate": "7% - 12% per annum (can vary based on new or used car)",
+      "loan_amount": "Up to 80% - 100% of the vehicle's on-road price",
+      "tenure": "1 to 7 years",
+      "eligibility": "Salaried or self-employed individuals with stable income and good credit score",
+      "processing_fees": "May apply",
+      "prepayment_charges": "May apply",
+      "collateral": "The vehicle being purchased acts as collateral",
+      "repayment_options": "EMI based repayment",
+      "customer_usage": {
+        "average_loan_amount": "$10,000 - $30,000",
+        "common_car_types": ["Hatchbacks", "Sedans", "SUVs"],
+        "customer_satisfaction": "4.3/5"
+      },
+      "customer_feedback": "Customers appreciate the relatively lower interest rates compared to personal loans and the flexible repayment options.",
+      "customer_reviews": [
+        "Made buying my car easier.",
+        "Flexible repayment plans.",
+        "Interest rates could be more competitive."
+      ]
     },
     {
-        "product_id": "29",
-        "name": "Education Loan",
-        "description": "A loan for funding higher education.",
-        "features": "Lower interest rates, Moratorium period",
-        "category": "Loan"
+      "product_id": "29",
+      "name": "Education Loan",
+      "description": "A loan for funding higher education.",
+      "features": "Lower interest rates, Moratorium period",
+      "category": "Loan",
+      "interest_rate": "8% - 15% per annum (can vary based on course and institution)",
+      "loan_amount": "Varies based on the course fees and the borrower's profile",
+      "tenure": "5 to 15 years",
+      "eligibility": "Students pursuing higher education in recognized institutions",
+      "moratorium_period": "Repayment usually starts after completion of the course or after a certain period",
+      "collateral": "May or may not be required depending on the loan amount",
+      "tax_benefits": "Interest paid on education loan may be eligible for tax deduction",
+      "co-applicant": "Often requires a parent or guardian as a co-applicant",
+      "customer_usage": {
+        "average_loan_amount": "$5,000 - $40,000",
+        "common_courses": ["Engineering", "MBA", "Medical"],
+        "customer_satisfaction": "4.1/5"
+      },
+      "customer_feedback": "Students appreciate the lower interest rates and the moratorium period that eases the financial burden during studies.",
+      "customer_reviews": [
+        "Helped me fund my education.",
+        "Moratorium period is very helpful.",
+        "Interest rates are still quite high."
+      ]
     },
     {
-        "product_id": "30",
-        "name": "Gold Loan",
-        "description": "A secured loan against gold ornaments.",
-        "features": "Quick disbursal, Competitive interest",
-        "category": "Loan"
+      "product_id": "30",
+      "name": "Gold Loan",
+      "description": "A secured loan against gold ornaments.",
+      "features": "Quick disbursal, Competitive interest",
+      "category": "Loan",
+      "interest_rate": "9% - 14% per annum",
+      "loan_amount": "Varies based on the purity and market value of the gold pledged",
+      "tenure": "Few months to a couple of years",
+      "eligibility": "Anyone owning gold ornaments",
+      "processing_fees": "Typically low or none",
+      "prepayment_charges": "Usually none",
+      "collateral": "Gold ornaments are pledged as security",
+      "disbursal_time": "Often very quick, sometimes within minutes",
+      "customer_usage": {
+        "average_loan_amount": "$1,000 - $10,000",
+        "common_loan_purposes": ["Short-term financial needs", "Medical emergencies"],
+        "customer_satisfaction": "4.4/5"
+      },
+      "customer_feedback": "Customers appreciate the quick disbursal process and the relatively competitive interest rates for a secured loan.",
+      "customer_reviews": [
+        "Got instant cash against my gold.",
+        "Simple and fast process.",
+        "Interest rates are reasonable for the speed of disbursal."
+      ]
     },
     {
-        "product_id": "31",
-        "name": "Loan Against Property",
-        "description": "A secured loan against property.",
-        "features": "Lower interest, Higher loan amount",
-        "category": "Loan"
+      "product_id": "31",
+      "name": "Loan Against Property",
+      "description": "A secured loan against property.",
+      "features": "Lower interest, Higher loan amount",
+      "category": "Loan",
+      "interest_rate": "8% - 12% per annum",
+      "loan_amount": "A significant percentage of the property's market value",
+      "tenure": "Up to 15 years",
+      "eligibility": "Owners of residential, commercial, or industrial properties",
+      "processing_fees": "May apply",
+      "prepayment_charges": "May apply",
+      "collateral": "The property is mortgaged as security",
+      "end_use": "Can be used for business expansion, education, marriage, etc.",
+      "customer_usage": {
+        "average_loan_amount": "$50,000 - $500,000+",
+        "common_loan_purposes": ["Business expansion", "Major expenses"],
+        "customer_satisfaction": "4.3/5"
+      },
+      "customer_feedback": "Customers value the lower interest rates compared to unsecured loans and the higher loan amounts available.",
+      "customer_reviews": [
+        "Good option for large funding needs.",
+        "Lower interest rates due to security.",
+        "Processing can take some time."
+      ]
     },
     {
-        "product_id": "32",
-        "name": "Travel Insurance",
-        "description": "A product offering protection during travel.",
-        "features": "Coverage for medical emergencies, Trip cancellation",
-        "category": "Insurance"
+      "product_id": "32",
+      "name": "Travel Insurance",
+      "description": "A product offering protection during travel.",
+      "features": "Coverage for medical emergencies, Trip cancellation",
+      "category": "Insurance",
+      "premium_cost": "$10 - $100 per trip",
+      "coverage": "Up to $500,000 for medical emergencies",
+      "eligibility": "Available for individuals aged 18 - 75 years",
+      "additional_benefits": "Lost baggage reimbursement, Emergency assistance services",
+      "policy_duration": "Single trip or annual multi-trip",
+      "deductibles": "$100 - $500 per claim",
+      "exclusions": "Pre-existing conditions, Extreme sports",
+      "customer_usage": {
+        "average_policies_purchased_per_year": 3,
+        "common_claim_reasons": ["Medical emergencies", "Lost baggage", "Flight cancellations"],
+        "customer_satisfaction": "4.6/5"
+      },
+      "customer_feedback": "Customers value the comprehensive coverage but would like clearer claim processing timelines.",
+      "customer_reviews": [
+        "Great peace of mind when traveling!",
+        "Had a smooth claim process for lost baggage.",
+        "Coverage is excellent, but documentation requirements are strict.",
+        "Reasonable pricing for the benefits offered.",
+        "Wish claim processing was a bit faster."
+      ]
     },
     {
-        "product_id": "33",
-        "name": "Health Insurance",
-        "description": "A product covering medical expenses.",
-        "features": "Cashless treatment, Wide network of hospitals",
-        "category": "Insurance"
+      "product_id": "33",
+      "name": "Health Insurance",
+      "description": "A product covering medical expenses.",
+      "features": "Cashless treatment, Wide network of hospitals",
+      "category": "Insurance",
+      "premium_cost": "$50 - $500 per month (varies by age, coverage, and plan)",
+      "coverage": "Up to $1,000,000 or more for medical treatments",
+      "eligibility": "Available for individuals and families",
+      "additional_benefits": "Annual health check-ups, Coverage for pre-existing conditions (after a waiting period)",
+      "policy_duration": "Annual, renewable",
+      "deductibles": "$500 - $5,000 per year (depending on the plan)",
+      "exclusions": "Cosmetic procedures, Certain specific illnesses initially",
+      "customer_usage": {
+        "average_claims_per_year": 0.5,
+        "common_claim_reasons": ["Hospitalization", "Surgeries", "Doctor consultations"],
+        "customer_satisfaction": "4.4/5"
+      },
+      "customer_feedback": "Customers appreciate the cashless treatment facility and the wide network of hospitals.",
+      "customer_reviews": [
+        "Provides great financial security for health issues.",
+        "Cashless treatment is very convenient.",
+        "Premium can be quite high depending on the coverage."
+      ]
     },
     {
-        "product_id": "34",
-        "name": "Life Insurance",
-        "description": "A product providing financial security to your family.",
-        "features": "Tax benefits, Death benefits",
-        "category": "Insurance"
+      "product_id": "34",
+      "name": "Life Insurance",
+      "description": "A product providing financial security to your family.",
+      "features": "Tax benefits, Death benefits",
+      "category": "Insurance",
+      "premium_cost": "$20 - $200 per month (varies by age, sum assured, and plan)",
+      "coverage": "Sum assured ranging from $100,000 to $1,000,000 or more",
+      "eligibility": "Individuals aged 18 - 65 years (varies by plan)",
+      "additional_benefits": "Riders for critical illness, accidental death, etc.",
+      "policy_duration": "Term plans (e.g., 10, 20, 30 years) or whole life plans",
+      "maturity_benefits": "Applicable for some plans like endowment plans",
+      "exclusions": "Suicide within the first year (typically)",
+      "customer_usage": {
+        "average_policy_term": "20 years",
+        "common_reasons_for_purchase": ["Financial security for family", "Retirement planning (for some plans)"],
+        "customer_satisfaction": "4.5/5"
+      },
+      "customer_feedback": "Customers value the financial security it provides to their families and the tax benefits offered.",
+      "customer_reviews": [
+        "Provides peace of mind for my family's future.",
+        "Tax benefits are a good incentive.",
+        "Understanding the different plan options can be confusing."
+      ]
     },
     {
-        "product_id": "35",
-        "name": "Mutual Fund",
-        "description": "An investment product pooling money from many investors.",
-        "features": "Diversified portfolio, Professional management",
-        "category": "Investment"
+      "product_id": "35",
+      "name": "Mutual Fund",
+      "description": "An investment product pooling money from many investors.",
+      "features": "Diversified portfolio, Professional management",
+      "category": "Investment",
+      "expense_ratio": "0.5% - 2% per annum (deducted from returns)",
+      "investment_amount": "Minimum investment can be as low as $100",
+      "eligibility": "Individuals, NRIs, Institutions",
+      "types": ["Equity Funds", "Debt Funds", "Hybrid Funds", "etc."],
+      "liquidity": "Generally liquid, can be redeemed easily",
+      "market_risk": "Returns are subject to market fluctuations",
+      "taxation": "Capital gains are taxed based on the holding period",
+      "professional_management": "Managed by experienced fund managers",
+      "customer_usage": {
+        "average_investment_amount": "$1,000 - $10,000 per fund",
+        "common_investment_goals": ["Wealth creation", "Retirement planning", "Children's education"],
+        "customer_satisfaction": "4.3/5"
+      },
+      "customer_feedback": "Customers appreciate the diversification and professional management but are also aware of the market risks involved.",
+      "customer_reviews": [
+        "Good way to diversify investments.",
+        "Managed by experts.",
+        "Returns can fluctuate with the market."
+      ]
     },
     {
-        "product_id": "36",
-        "name": "Wealth Management",
-        "description": "A comprehensive service for managing your wealth.",
-        "features": "Personalized financial advice, Portfolio management",
-        "category": "Investment"
+      "product_id": "36",
+      "name": "Wealth Management",
+      "description": "A comprehensive service for managing your wealth.",
+      "features": "Personalized financial advice, Portfolio management",
+      "category": "Investment",
+      "management_fees": "1% - 3% of the assets under management per annum",
+      "minimum_investment_amount": "Typically high, e.g., $100,000 or more",
+      "eligibility": "High-net-worth individuals and families",
+      "services_offered": "Financial planning, Investment management, Tax planning, Estate planning",
+      "personalized_advice": "Tailored financial strategies based on individual goals",
+      "portfolio_diversification": "Across various asset classes",
+      "regular_reporting": "Periodic performance reports and updates",
+      "dedicated_relationship_manager": "Single point of contact for all financial needs",
+      "customer_usage": {
+        "average_portfolio_size": "$500,000+",
+        "common_goals": ["Preserving and growing wealth", "Succession planning"],
+        "customer_satisfaction": "4.6/5"
+      },
+      "customer_feedback": "Clients value the personalized advice and the comprehensive approach to managing their wealth.",
+      "customer_reviews": [
+        "Provides excellent financial guidance.",
+        "Takes the complexity out of wealth management.",
+        "Fees can be significant."
+      ]
     }
-]
+  ]
