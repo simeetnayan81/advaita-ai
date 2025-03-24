@@ -8,6 +8,7 @@ from .customer_service import get_customer_profile, get_all_customer_data
 from .llm_service import generate_customer_analysis, generate_product_recommendations
 from .transaction_service import getCustomerTransactionsInsight
 from .model_service import predict_transaction
+from fastapi.middleware.cors import CORSMiddleware
 
 # Load environment variables
 load_dotenv()
@@ -20,6 +21,14 @@ client = openai.OpenAI(
 
 # Initialize FastAPI app
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allow all origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allow all HTTP methods (GET, POST, PUT, etc.)
+    allow_headers=["*"],  # Allow all headers
+)
 
 @app.get("/all_products_data")
 async def get_allProductData():
