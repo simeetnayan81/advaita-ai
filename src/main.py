@@ -35,7 +35,15 @@ async def get_allProductData():
     all_product_data = get_all_product_data()
     return all_product_data
 
+@app.get("/product_data/{product_id}")
+async def get_customer_data(product_id: str):
 
+    all_product_data = get_all_product_data()
+
+    for product in all_product_data:
+        if product["product_id"] == product_id:
+            return product
+        
 @app.get("/all_customers_data")
 async def get_allCustomerData():
     all_customer_data = get_all_customer_data()
