@@ -7,7 +7,7 @@ This API provides personalized financial product recommendations based on custom
 
 ## Architecture Diagram
 
-[![](res\arch.png)]
+![System Architecture Diagram](res/arch.png)
 
 ## Table of Contents
 - [Introduction](#introduction)
