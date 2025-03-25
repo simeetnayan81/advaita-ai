@@ -44,7 +44,7 @@ async def get_customer_data(product_id: str):
         if product["product_id"] == product_id:
             return product
 
-@app.get("/product_optimisation/{product_id}")
+@app.get("/product_optimizations/{product_id}")
 async def get_product_optimisation(product_id: str):
     prompt = create_product_reccomendation(product_id)
     suggestion =get_product_suggestions(client,prompt)
