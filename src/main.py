@@ -48,7 +48,6 @@ async def get_customer_data(product_id: str):
 async def get_product_optimisation(product_id: str):
     prompt = create_product_reccomendation(product_id)
     suggestion =get_product_suggestions(client,prompt)
-    print(suggestion)
     return suggestion
     
 
