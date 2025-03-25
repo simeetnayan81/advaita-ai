@@ -43,6 +43,3 @@ def predict_transaction(customerId):
         score = 0
 
     return {"predicted": prediction, "score": score}
-
-
-print(predict_transaction("AngelaBlanchard35"))

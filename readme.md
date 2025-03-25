@@ -3,6 +3,136 @@
 ## Overview
 This API provides personalized financial product recommendations based on customer profiles and their financial needs using natural language processing and vector similarity.
 
+# Bank Product Recommendation System
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Demo](#demo)
+- [Inspiration](#inspiration)
+- [What It Does](#what-it-does)
+- [How We Built It](#how-we-built-it)
+- [Challenges We Faced](#challenges-we-faced)
+- [How to Run](#how-to-run)
+- [Tech Stack](#tech-stack)
+- [Future Improvements](#future-improvements)
+
+## Introduction
+This project is an innovative financial recommendation platform designed to provide personalized product suggestions and insights for bank customers. By leveraging advanced machine learning techniques, natural language processing, and comprehensive data analysis, the system aims to enhance customer experience and financial product matching.
+
+## Demo
+The system offers a web-based interface that allows users to:
+- Retrieve detailed customer profiles
+- Generate personalized product recommendations
+- Analyze customer transaction insights
+- Predict future transaction behaviors
+- Optimize existing bank products
+
+## Inspiration
+The inspiration behind this project stems from the need to:
+- Improve customer financial experiences
+- Provide data-driven, personalized banking solutions
+- Utilize advanced AI technologies to understand customer needs
+- Create a more intelligent and responsive banking ecosystem
+
+## What It Does
+The Bank Product Recommendation System provides several key functionalities:
+
+1. **Customer Profile Analysis**
+   - Retrieves comprehensive customer information
+   - Combines customer profiles with social media data
+   - Generates detailed profile summaries using AI
+
+2. **Product Recommendations**
+   - Uses semantic similarity to match customer needs with bank products
+   - Generates personalized product suggestions
+   - Provides detailed reasoning for each recommendation
+
+3. **Transaction Insights**
+   - Analyzes customer transaction history
+   - Predicts future transaction amounts
+   - Generates transaction behavior insights
+
+4. **Product Optimization**
+   - Offers suggestions for improving existing bank products
+   - Uses AI to generate specific, actionable recommendations
+
+## How We Built It
+The system was built using a modular, microservice-based architecture:
+
+1. **Data Management**
+   - Utilized JSON files for storing customer, product, and transaction data
+   - Implemented services to load and process data dynamically
+
+2. **Machine Learning Components**
+   - Used SentenceTransformer for semantic product matching
+   - Implemented a predictive transaction model using scikit-learn
+   - Leveraged pre-trained machine learning models
+
+3. **AI-Powered Analysis**
+   - Integrated OpenAI-compatible LLM (Llama 3.1 70B) for natural language processing
+   - Created sophisticated prompts for generating insights
+   - Implemented robust JSON parsing and cleaning mechanisms
+
+4. **API Development**
+   - Used FastAPI for creating a robust, scalable web service
+   - Implemented CORS middleware for cross-origin compatibility
+   - Created endpoints for various functionalities
+
+## Challenges We Faced
+1. **Data Integration**
+   - Combining multiple data sources with different structures
+   - Ensuring data quality and consistency
+
+2. **AI Prompt Engineering**
+   - Designing prompts that generate precise, relevant outputs
+   - Handling various edge cases in language model responses
+
+3. **Performance Optimization**
+   - Managing computational resources for ML models
+   - Implementing efficient vector similarity calculations
+
+4. **Model Interpretation**
+   - Translating complex AI insights into understandable recommendations
+   - Maintaining transparency in recommendation generation
+
+## How to Run
+To run the project:
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Set up environment variables
+4. Run the FastAPI server:
+   ```bash
+   uvicorn main:app --reload
+   ```
+
+## Tech Stack
+- **Programming Language**: Python
+- **Web Framework**: FastAPI
+- **Machine Learning**: 
+  - SentenceTransformers
+  - scikit-learn
+  - NumPy
+- **Natural Language Processing**: 
+  - OpenAI/Llama 3.1 70B
+- **Data Handling**: JSON
+- **Libraries**: 
+  - sentence-transformers
+  - scipy
+  - pickle
+  - python-dotenv
+- **Deployment**: Designed for containerization and cloud deployment
+
+## Future Improvements
+- Enhance model accuracy through continuous learning
+- Expand data sources and integration
+- Implement more advanced recommendation algorithms
+- Add real-time transaction monitoring
+
+
 ## API Endpoints
 
 ### GET `/product_recommendations`
