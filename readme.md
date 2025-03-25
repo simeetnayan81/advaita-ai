@@ -5,6 +5,10 @@ This API provides personalized financial product recommendations based on custom
 
 # Bank Product Recommendation System
 
+## Architecture Diagram
+
+[![](res\arch.png)]
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Demo](#demo)
