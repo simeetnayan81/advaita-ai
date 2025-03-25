@@ -14,63 +14,63 @@
         "Transaction_Insights": [
             {
                 "Month": "Jan 2024",
-                "Total_Transaction_Amount": 4915.82,
-                "Total_Transaction_Count": 62
+                "Total_Transaction_Amount": 20000,
+                "Total_Transaction_Count": 20
             },
             {
                 "Month": "Feb 2024",
-                "Total_Transaction_Amount": 5117.93,
-                "Total_Transaction_Count": 68
+                "Total_Transaction_Amount": 22000,
+                "Total_Transaction_Count": 22
             },
             {
                 "Month": "Mar 2024",
-                "Total_Transaction_Amount": 5605.39,
-                "Total_Transaction_Count": 65
+                "Total_Transaction_Amount": 23780,
+                "Total_Transaction_Count": 21
             },
             {
                 "Month": "Apr 2024",
-                "Total_Transaction_Amount": 4861.65,
-                "Total_Transaction_Count": 59
+                "Total_Transaction_Amount": 26458,
+                "Total_Transaction_Count": 25
             },
             {
                 "Month": "May 2024",
-                "Total_Transaction_Amount": 4113.62,
-                "Total_Transaction_Count": 83
+                "Total_Transaction_Amount": 24650,
+                "Total_Transaction_Count": 23
             },
             {
                 "Month": "Jun 2024",
-                "Total_Transaction_Amount": 4020.42,
-                "Total_Transaction_Count": 73
+                "Total_Transaction_Amount": 28970,
+                "Total_Transaction_Count": 27
             },
             {
                 "Month": "Jul 2024",
-                "Total_Transaction_Amount": 4709.72,
-                "Total_Transaction_Count": 87
+                "Total_Transaction_Amount": 26564,
+                "Total_Transaction_Count": 29
             },
             {
                 "Month": "Aug 2024",
-                "Total_Transaction_Amount": 3997.24,
-                "Total_Transaction_Count": 54
+                "Total_Transaction_Amount": 29875,
+                "Total_Transaction_Count": 28
             },
             {
                 "Month": "Sep 2024",
-                "Total_Transaction_Amount": 4300.28,
-                "Total_Transaction_Count": 94
+                "Total_Transaction_Amount": 24986,
+                "Total_Transaction_Count": 21
             },
             {
                 "Month": "Oct 2024",
-                "Total_Transaction_Amount": 5160.15,
-                "Total_Transaction_Count": 64
+                "Total_Transaction_Amount": 23421,
+                "Total_Transaction_Count": 20
             },
             {
                 "Month": "Nov 2024",
-                "Total_Transaction_Amount": 4035.51,
-                "Total_Transaction_Count": 85
+                "Total_Transaction_Amount": 30000,
+                "Total_Transaction_Count": 29
             },
             {
                 "Month": "Dec 2024",
-                "Total_Transaction_Amount": 8570.55,
-                "Total_Transaction_Count": 146
+                "Total_Transaction_Amount": 32330,
+                "Total_Transaction_Count": 32
             }
         ]
     },
