@@ -31,6 +31,27 @@ def generate_customer_analysis(client, prompts):
         cleaned_output = output[3:-3]  # Remove ``` and ```
         
     return json.loads(cleaned_output)
+def get_product_suggestions(client,prompts):
+    response = client.chat.completions.create(
+        model="Meta-Llama-3.1-70B-Instruct",
+        messages=[
+            {"role": "system", "content": prompts["system_prompt"]},
+            {"role": "user", "content": prompts["user_prompt"]}
+        ],
+        temperature=0.1,
+        top_p=0.1
+    )
+    
+    # Parse the response
+    output = response.choices[0].message.content
+    # Remove JSON code fence markers if present
+    cleaned_output = output
+    if output.startswith("```json"):
+        cleaned_output = output[7:-3]  # Remove ```json and ``` 
+    elif output.startswith("```"):
+        cleaned_output = output[3:-3]  # Remove ``` and ```
+        
+    return json.loads(cleaned_output)
 
 def generate_product_recommendations(client, analysis, recommended_products):
     """

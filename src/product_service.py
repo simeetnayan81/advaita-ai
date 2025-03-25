@@ -11,6 +11,31 @@ with open(product_file_path, "r") as file:
     products = json.load(file)
             
 
+def create_product_reccomendation(product_id):
+    req_product=None
+    for p in products:
+        if p["product_id"] == str(product_id):
+            req_product=p
+            break
+
+    """
+    Create prompts for the LLM to analyze customer data
+    """
+    system_prompt = """You are a professional data analyst at a bank. You have been provided with detailed product information.
+    Analyze the following product data and provide the suggestion on how to improve and optimise this product or service based on customer feedback.Don't given random figures and give more specific suggestions related to the product only.Explain the issue and how to solve it for each suggestion.Make it more specific and descriptive to the product. Output should be a array of JSON only in format:
+    [{
+        "Suggestion": "suggestion on how to improve and optimise this product or service",
+    }...]
+    Only give the json format only. Don't give any other response.
+    """
+    
+    user_prompt = f"Product Info: {req_product}"
+
+    return {
+        "system_prompt": system_prompt,
+        "user_prompt": user_prompt
+    }
+
 def get_all_product_data():
     return products
 
@@ -34,7 +59,7 @@ class ProductRecommender:
 
         self.product_vectors = []
         for product in products:
-            text = product["description"] + " #### " + product["features"]
+            text = product["description"] + " #### " + product["features"] + " #### " + product["eligibility"]
             vector = self.model.encode(text)
             self.product_vectors.append({
                 "Product_Name": product["name"],

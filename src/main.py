@@ -3,9 +3,9 @@ import os
 from dotenv import load_dotenv
 import openai
 import json
-from .product_service import get_recommended_products, get_all_product_data
+from .product_service import get_recommended_products, get_all_product_data, create_product_reccomendation
 from .customer_service import get_customer_profile, get_all_customer_data
-from .llm_service import generate_customer_analysis, generate_product_recommendations
+from .llm_service import generate_customer_analysis, generate_product_recommendations, get_product_suggestions
 from .transaction_service import getCustomerTransactionsInsight
 from .model_service import predict_transaction
 from fastapi.middleware.cors import CORSMiddleware
@@ -43,7 +43,16 @@ async def get_customer_data(product_id: str):
     for product in all_product_data:
         if product["product_id"] == product_id:
             return product
-        
+
+@app.get("/product_optimisation/{product_id}")
+async def get_product_optimisation(product_id: str):
+    prompt = create_product_reccomendation(product_id)
+    suggestion =get_product_suggestions(client,prompt)
+    print(suggestion)
+    return suggestion
+    
+
+
 @app.get("/all_customers_data")
 async def get_allCustomerData():
     all_customer_data = get_all_customer_data()
@@ -68,6 +77,7 @@ async def get_customer_data(customer_id: str):
     for profile in all_customer_data:
         if profile["CustomerID"] == customer_id:
             return profile
+
 
 
 @app.get("/product_recommendations/{customer_id}")
@@ -98,6 +108,7 @@ async def get_product_recommendations(customer_id: str):
     )
     
     return {"profile": profile_summary, "recommended": product_insights["top_recommendations"], "products_sentiment":product_insights["product_sentiment"] ,"products": detailed_recommendations}
+
 
 def create_analysis_prompt(customer_profile):
     """
