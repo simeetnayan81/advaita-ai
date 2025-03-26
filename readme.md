@@ -136,159 +136,89 @@ To run the project:
 - Implement more advanced recommendation algorithms
 - Add real-time transaction monitoring
 
+# Project Documentation
+
+## Project Structure
+
+### Main Components
+- `main.py`: FastAPI application serving the main endpoints
+- `customer_service.py`: Customer data retrieval and processing
+- `product_service.py`: Product recommendation logic
+- `llm_service.py`: Large Language Model interactions
+- `model_service.py`: Transaction prediction model
+- `transaction_service.py`: Customer transaction insights retrieval
+
+## Key Features
+
+### 1. Product Recommendations
+- Personalized product suggestions based on customer profile
+- Uses sentence transformer for semantic similarity
+- Generates detailed product recommendations with reasoning
+
+### 2. Transaction Prediction
+- Machine learning model predicts future transaction amounts
+- Provides a normalized score for transaction prediction
+
+### 3. Customer Analysis
+- Combines customer profile with social media data
+- Uses LLM to generate customer profile summaries
+- Identifies potential financial needs and product offerings
 
 ## API Endpoints
 
-### GET `/product_recommendations`
-Returns personalized product recommendations for a customer with detailed reasons why each product is suitable.
+### Customer-related Endpoints
+- `/all_customers_data`: Retrieve all customer data
+- `/customer_data/{customer_id}`: Get specific customer profile
+- `/customer_transaction_insights/{customer_id}`: Get transaction insights and predictions
 
-**Parameters:**
-- customerId
+### Product-related Endpoints
+- `/all_products_data`: Retrieve all product information
+- `/product_data/{product_id}`: Get specific product details
+- `/product_recommendations/{customer_id}`: Generate personalized product recommendations
+- `/product_optimizations/{product_id}`: Get product improvement suggestions
 
-**Response:**
-```json
-{
-  "Products": [
-    {
-      "Product_Name": "product name",
-      "Reason": "Detailed reason why this product is suitable for the customer"
-    },
-    ...
-  ]
-}
-```
+## Technologies Used
+- FastAPI
+- OpenAI/SambaNova LLM
+- Sentence Transformers
+- Scikit-learn (for transaction prediction)
+- NumPy
+- Pickle (for model serialization)
 
-## Modules
+## Setup and Installation
 
-### Main Module (`main.py`)
-This module contains the FastAPI application and endpoint definitions.
+### Prerequisites
+- Python 3.8+
+- pip
+- Virtual environment (recommended)
 
-#### Functions
+### Installation Steps
+1. Clone the repository
+2. Create a virtual environment
+3. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+4. Set up environment variables (API keys, etc.)
+5. Run the FastAPI application:
+   ```
+   uvicorn main:app --reload
+   ```
 
-##### `get_product_recommendations()`
-Endpoint to get personalized product recommendations for a customer.
+## Data Sources
+- `./data/customer_profile.json`
+- `./data/products.json`
+- `./data/customer_monthly_transaction_insights.json`
+- `./models/TransactionModel.pkl`
 
-**Returns:**
-- JSON object containing product recommendations with reasons
+## Customization
+- Modify prompts in `llm_service.py` to adjust LLM behavior
+- Update recommendation logic in `product_service.py`
+- Retrain transaction prediction model in `model_service.py`
 
-##### `create_analysis_prompt(customer_profile)`
-Create prompts for the LLM to analyze customer data.
-
-**Parameters:**
-- `customer_profile` (dict): The customer profile data
-
-**Returns:**
-- dict: Contains system_prompt and user_prompt for the LLM
-
-### Customer Service (`customer_service.py`)
-This module handles customer profile retrieval and processing.
-
-#### Functions
-
-##### `get_customer_profile(customer_id)`
-Retrieve and combine customer profile with social media data.
-
-**Parameters:**
-- `customer_id` (str): The ID of the customer to retrieve
-
-**Returns:**
-- dict: Combined customer profile with personal and social media data
-
-### LLM Service (`llm_service.py`)
-This module manages interactions with the AI model.
-
-#### Functions
-
-##### `generate_customer_analysis(client, prompts)`
-Generate customer analysis using the LLM.
-
-**Parameters:**
-- `client` (OpenAI): The OpenAI client
-- `prompts` (dict): Dict containing system_prompt and user_prompt
-
-**Returns:**
-- dict: Parsed JSON response with customer analysis
-
-##### `generate_product_recommendations(client, analysis, recommended_products)`
-Generate detailed product recommendations using the LLM.
-
-**Parameters:**
-- `client` (OpenAI): The OpenAI client
-- `analysis` (dict): Customer analysis result
-- `recommended_products` (list): List of recommended products
-
-**Returns:**
-- dict: Detailed product recommendations with reasons
-
-### Product Service (`product_service.py`)
-This module encapsulates product recommendation logic.
-
-#### Classes
-
-##### `ProductRecommender`
-A class to handle product recommendations using vector similarity.
-
-###### Methods
-
-###### `__init__(model_name='multi-qa-MiniLM-L6-cos-v1')`
-Initialize the ProductRecommender with a sentence transformer model.
-
-**Parameters:**
-- `model_name` (str): Name of the sentence transformer model to use
-
-###### `load_products(file_path="./data/products.json")`
-Load and vectorize products from a JSON file.
-
-**Parameters:**
-- `file_path` (str): Path to the JSON file containing products
-
-###### `get_recommendations(text, top_k=3)`
-Get product recommendations based on text similarity.
-
-**Parameters:**
-- `text` (str): Text to compare products against
-- `top_k` (int): Number of top recommendations to return
-
-**Returns:**
-- list: Top product recommendations
-
-###### `_cosine_similarity(vec1, vec2)`
-Calculate cosine similarity between two vectors.
-
-**Parameters:**
-- `vec1` (numpy.array): First vector
-- `vec2` (numpy.array): Second vector
-
-**Returns:**
-- float: Similarity score (0-1)
-
-#### Functions
-
-##### `get_recommended_products(text)`
-Get product recommendations based on text.
-
-**Parameters:**
-- `text` (str): Text describing customer needs
-
-**Returns:**
-- list: Recommended products
-
-## Data Requirements
-
-The application expects the following data files:
-- `./data/updated_customer_profile.json`: Customer profile information
-- `./data/non_contradictory_social_media_posts.json`: Social media posts linked to customers
-- `./data/products.json`: Product catalog with descriptions and features
-
-## Setup and Deployment
-
-### Installing Dependencies
-pip install -r requirements.txt
-
-### Environment Variables
-- `SAMBANOVA_API_KEY`: API key for accessing the SambaNova LLM service
-
-### Starting the Server
-```bash
-uvicorn src.main:app --reload
-```
+## Contributing
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a new Pull Request
